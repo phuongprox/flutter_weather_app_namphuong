@@ -13,6 +13,7 @@ import '/widgets/daily_forecast_list.dart';
 import 'search_screen.dart';
 import 'map_screen.dart';
 import 'settings_screen.dart';
+import 'forecast_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -159,8 +160,33 @@ class _HomeScreenState extends State<HomeScreen> {
         if (weather.hourly != null && weather.hourly!.isNotEmpty)
           HourlyForecastList(hourly: weather.hourly!),
         const SizedBox(height: 20),
-        if (weather.forecast != null && weather.forecast!.daily.isNotEmpty)
+        if (weather.forecast != null && weather.forecast!.daily.isNotEmpty) ...[
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              const Text(
+                'Next 5 Days',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const ForecastScreen()),
+                  );
+                },
+                child: const Text(
+                  'See All',
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ],
+          ),
           DailyForecastList(daily: weather.forecast!.daily),
+        ],
       ],
     );
   }
