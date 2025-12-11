@@ -31,36 +31,26 @@ dependencies:
   flutter:
     sdk: flutter
   
-  # Yêu cầu cốt lõi (Core Requirements)
-  http: ^1.1.0               # Gói để thực hiện HTTP requests/API Integration
-  provider: ^6.1.1           # Quản lý trạng thái (State Management)
-  intl: ^0.18.1              # Định dạng ngày giờ và số (Date/Time Formatting)
-  
-  # Dịch vụ vị trí và Cache (Location Services and Caching)
-  geolocator: ^10.1.0        # Lấy vị trí GPS của người dùng (Location services)
-  geocoding: ^2.1.1          # Chuyển đổi tọa độ thành tên thành phố (Geocoding)
-  shared_preferences: ^2.2.2 # Lưu trữ dữ liệu đơn giản (Caching/Settings)
-  connectivity_plus: ^5.0.2  # Kiểm tra trạng thái kết nối mạng (Offline Support)
-  
-  # UI/UX và Bảo mật
-  cached_network_image: ^3.3.0 # Tối ưu hóa việc tải và hiển thị icon/ảnh từ mạng
-  flutter_dotenv: ^5.1.0     # Quản lý biến môi trường (.env) cho API Key (Security)
-  
-  # Bản đồ (Map)
-  flutter_map: ^6.1.0        # Hiển thị bản đồ
-  latlong2: ^0.9.0           # Xử lý tọa độ cho bản đồ
-  
-  # Gói tiện ích (Optional/Utility)
+  http: ^1.1.0          
+  provider: ^6.1.1           
+  intl: ^0.18.1             
+  geolocator: ^10.1.0        
+  geocoding: ^2.1.1          
+  shared_preferences: ^2.2.2 
+  connectivity_plus: ^5.0.2 
+  cached_network_image: ^3.3.0
+  flutter_dotenv: ^5.1.0 
+  flutter_map: ^6.1.0       
+  latlong2: ^0.9.0         
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   
-  # Yêu cầu Testing và Code Generation
-  mockito: ^5.4.4            # Mocking dependencies cho Unit Tests
-  build_runner: ^2.4.7       # Công cụ cần thiết cho code generation (nếu dùng json_serializable/freezed)
   
+  mockito: ^5.4.4           
+  build_runner: ^2.4.7     
   flutter_lints: ^5.0.0
 flutter:
 
