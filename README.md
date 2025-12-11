@@ -6,6 +6,7 @@
 
 Mục tiêu chính là tạo ra một ứng dụng đáng tin cậy, cung cấp thông tin thời tiết **thực tế** với giao diện người dùng **động**.
 
+Video Demo: [**Xem video demo tại đây**](https://drive.google.com/file/d/10O_0-AIktBEp02m3jhZze36eViQ2TDJi/view?usp=sharing)
 
 ## ✨ Tổng hợp tính năng
 ### I. Dữ liệu thời tiết & dự báo
@@ -20,20 +21,6 @@ Mục tiêu chính là tạo ra một ứng dụng đáng tin cậy, cung cấp 
 * **Tìm kiếm thành phố:** Chức năng tìm kiếm linh hoạt theo tên thành phố[cite: 653].
 * **Thành phố yêu thích:** Lưu trữ và quản lý tới **5** thành phố yêu thích[cite: 655, 761].
 
----
-
-## 💻 Công nghệ Sử dụng
-
-|  | Công cụ/Package | Ghi chú |
-| :--- | :--- | :--- |
-| **Kiến trúc** | **Provider** | Quản lý trạng thái ứng dụng (State Management). |
-| **API** | **OpenWeatherMap** (Chính) | Cung cấp dữ liệu thời tiết. |
-| **Bảo mật** | **`flutter_dotenv`** | Tải API Key từ file `.env` (không commit). |
-| **Mạng/Cache** | `http`, `connectivity_plus`, `shared_preferences` | Xử lý HTTP requests, kiểm tra kết nối, và lưu trữ cache. |
-| **Vị trí** | `geolocator`, `geocoding` | Xử lý GPS và dịch ngược tọa độ. |
-| **Testing** | `mockito`, `flutter_test` | Hỗ trợ Unit Tests cho Service và Model. |
-
----
 
 ## ⚙️ Hướng dẫn Thiết lập Dự án
 
