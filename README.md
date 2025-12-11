@@ -40,8 +40,8 @@ Mục tiêu chính là tạo ra một ứng dụng đáng tin cậy, cung cấp 
 ### 1. Tải Mã nguồn
 
 ```bash
-git clone [https://github.com/](https://github.com/)[Tên người dùng của bạn]/flutter_weather_app_[tên bạn].git
-cd flutter_weather_app_[tên bạn]
+git clone [https://github.com/phuongprox/flutter_weather_app_namphuong.git]
+cd flutter_weather_app_namphuong
 ```
 ### 2. Cài đặt Phụ thuộc
 ```bash
