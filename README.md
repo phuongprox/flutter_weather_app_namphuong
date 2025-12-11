@@ -43,11 +43,22 @@
 git clone [https://github.com/](https://github.com/)[Tên người dùng của bạn]/flutter_weather_app_[tên bạn].git
 cd flutter_weather_app_[tên bạn]
 ```
-2. Cài đặt Phụ thuộcBashflutter pub get
-3. Thiết lập API Key (BẮT BUỘC) 1⚠️ Cảnh báo Bảo mật: Không được commit API Key lên GitHub.Lấy khóa API miễn phí từ OpenWeatherMap2.Tạo file mới tên là .env ở thư mục gốc của dự án.Thêm khóa API vào file .env theo định dạng sau:Đoạn mã# .env
+### 2. Cài đặt Phụ thuộc
+```bash
+Bash: flutter pub get
+```
+### 3. Thiết lập API Key (BẮT BUỘC) 
+```bash
+⚠️ Cảnh báo Bảo mật: Không được commit API Key lên GitHub.Lấy khóa API miễn phí từ OpenWeatherMap
+Tạo file mới tên là .env ở thư mục gốc của dự án.Thêm khóa API vào file .env theo định dạng sau:Đoạn mã# .env
 OPENWEATHER_API_KEY=YOUR_ACTUAL_OPENWEATHER_API_KEY_HERE
-4. Chạy Ứng dụngBashflutter run
+```
+### 4. Chạy Ứng dụng
+```bash
+Bash: flutter run
+```
 ---
+
 <div align="center">
 
 <img src="screenshot\home.png" width="100"/>
