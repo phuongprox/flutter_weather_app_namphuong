@@ -42,8 +42,22 @@
 ```bash
 git clone [https://github.com/](https://github.com/)[Tên người dùng của bạn]/flutter_weather_app_[tên bạn].git
 cd flutter_weather_app_[tên bạn]
+```
 2. Cài đặt Phụ thuộcBashflutter pub get
 3. Thiết lập API Key (BẮT BUỘC) 1⚠️ Cảnh báo Bảo mật: Không được commit API Key lên GitHub.Lấy khóa API miễn phí từ OpenWeatherMap2.Tạo file mới tên là .env ở thư mục gốc của dự án.Thêm khóa API vào file .env theo định dạng sau:Đoạn mã# .env
 OPENWEATHER_API_KEY=YOUR_ACTUAL_OPENWEATHER_API_KEY_HERE
 4. Chạy Ứng dụngBashflutter run
-📸 Ảnh chụp Màn hình (Screenshots)(Vui lòng thay thế các placeholder này bằng ảnh chụp thực tế của ứng dụng bạn)Trạng tháiMô tảClear/SunnyGiao diện nền màu sáng (vàng/xanh dương)3.RainyGiao diện nền màu tối/xám4.CloudyGiao diện nền màu sáng xám5.Night ModeGiao diện nền màu xanh đậm/gần đen6.Search ScreenHiển thị ô tìm kiếm và danh sách thành phố yêu thích7.Error StateMàn hình hiển thị ErrorWidgetCustom8.Loading StateMàn hình hiển thị hiệu ứng LoadingShimmer9.📈 Cải tiến và Bonus FeaturesUnit Tests Mở rộng: Bao gồm kiểm thử cho ForecastModel và LocationService.AQI: Tích hợp Chỉ số Chất lượng Không khí (AQI)10.Multi-API Fallback: Xây dựng logic sử dụng khóa dự phòng (WEATHER_API_KEY) nếu API chính lỗi11.Weather Animations: Thay thế icon tĩnh bằng hoạt ảnh12121212.
+---
+<div align="center">
+
+<img src="screenshot\home.png" width="100"/>
+<img src="screenshot\loading.png" width="100"/>
+<img src="screenshot\dark.png" width="100"/>
+<img src="screenshot\search_screen.png" width="100"/>
+<img src="screenshot\setting.png" width="100"/>
+<img src="screenshot\temperature.png" width="100"/>
+<img src="screenshot\windspeed.png" width="100"/>
+<img src="screenshot\precipitation.png" width="100"/>
+<img src="screenshot\cloud.png" width="100"/>
+</div>
+---
